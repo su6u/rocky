@@ -1,0 +1,14 @@
+{# Gemma 4 text-only SFT template: official rendering plus assistant loss markers. #}
+{{- bos_token -}}
+{%- for message in messages -%}
+{%- set role = 'model' if message['role'] == 'assistant' else message['role'] -%}
+{{- '<|turn>' + role + '\n' -}}
+{%- if role == 'model' -%}
+{% generation %}{{- message['content'] | trim -}}{{- '<turn|>\n' -}}{% endgeneration %}
+{%- else -%}
+{{- message['content'] | trim -}}{{- '<turn|>\n' -}}
+{%- endif -%}
+{%- endfor -%}
+{%- if add_generation_prompt -%}
+{{- '<|turn>model\n' -}}
+{%- endif -%}

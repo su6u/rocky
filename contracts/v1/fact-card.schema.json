@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rocky.local/contracts/v1/fact-card.schema.json",
+  "title": "Rocky reviewed fact card v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "domain", "statement", "source", "review"],
+  "properties": {
+    "schemaVersion": { "const": "rocky-fact-card-v1" },
+    "id": { "type": "string", "pattern": "^fact-[a-z0-9-]+$" },
+    "domain": { "enum": ["canon", "engineering", "safety"] },
+    "reviewControl": { "type": "boolean", "default": false },
+    "statement": { "type": "string", "minLength": 1 },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "publisher",
+        "url",
+        "locator",
+        "sourceType",
+        "licenseId",
+        "accessedAt"
+      ],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "publisher": { "type": "string", "minLength": 1 },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^(?:https://|restricted://sha256/[a-f0-9]{64}$)"
+        },
+        "locator": { "type": "string", "minLength": 1 },
+        "sourceType": {
+          "enum": ["licensed_primary", "official_primary", "manufacturer_manual", "project_control", "restricted_primary"]
+        },
+        "licenseId": { "type": "string", "minLength": 1 },
+        "accessedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authorId",
+        "subjectReviewerId",
+        "rightsReviewerId",
+        "reviewedAt",
+        "contentSha256",
+        "subjectReviewSha256",
+        "rightsReviewSha256"
+      ],
+      "properties": {
+        "authorId": { "type": "string", "minLength": 1 },
+        "subjectReviewerId": { "type": "string", "minLength": 1 },
+        "rightsReviewerId": { "type": "string", "minLength": 1 },
+        "reviewedAt": { "type": "string", "format": "date-time" },
+        "contentSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "subjectReviewSha256": {
+          "type": ["string", "null"],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "rightsReviewSha256": {
+          "type": ["string", "null"],
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    }
+  }
+}

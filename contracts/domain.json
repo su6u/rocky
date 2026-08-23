@@ -1,0 +1,31 @@
+{
+  "_generated": "GENERATED — run `pnpm sync-contracts` after changing @rocky/domain, @rocky/prompt, @rocky/eval, @rocky/corpus, or @rocky/protocol",
+  "emotions": [
+    "neutral",
+    "excited",
+    "alarmed",
+    "sad",
+    "happy",
+    "curious"
+  ],
+  "gestures": [
+    "none",
+    "jazz_hands",
+    "tap_carapace",
+    "tap_divider",
+    "point",
+    "claw_on_divider",
+    "fold_claws",
+    "perk_up",
+    "hunker_carapace",
+    "raise_carapace",
+    "sink_carapace",
+    "shift_carapace",
+    "cock_carapace",
+    "wave_arms",
+    "wave_absently",
+    "bounce",
+    "spider_walk",
+    "skitter"
+  ]
+}

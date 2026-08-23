@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rocky-training"
+version = "1.0.0"
+description = "Rocky model training CLI"
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6.0.2"]
+
+[project.optional-dependencies]
+train = [
+  "accelerate>=1.2.0",
+  "bitsandbytes>=0.45.0",
+  "datasets>=3.2.0",
+  "peft>=0.19.0",
+  "pillow>=10.0.0",
+  "torch>=2.7.0",
+  "torchvision>=0.22.0",
+  "transformers>=5.12.0",
+  "trl>=1.1.0",
+  "wandb>=0.19.0",
+]
+dev = ["pytest>=8.3.0"]
+
+[project.scripts]
+rocky-training = "rocky_training.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rocky_training*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

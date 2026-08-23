@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rocky.local/contracts/v1/training-row.schema.json",
+  "title": "Rocky reviewed SFT row v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "split",
+    "category",
+    "scenarioFamily",
+    "humorExpectation",
+    "messages",
+    "provenance"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "rocky-training-row-v1" },
+    "id": { "type": "string", "pattern": "^sft-v1-[a-z0-9-]+$" },
+    "split": { "enum": ["train", "holdout"] },
+    "category": {
+      "enum": [
+        "ordinary_conversation",
+        "engineering_reasoning",
+        "grace_relationship",
+        "eridian_world",
+        "ambiguity_repair",
+        "danger_safety",
+        "output_motion"
+      ]
+    },
+    "scenarioFamily": { "type": "string", "minLength": 1 },
+    "humorExpectation": { "enum": ["expected", "optional", "avoid"] },
+    "callbackId": {
+      "type": ["string", "null"],
+      "pattern": "^callback-[a-z0-9-]+$"
+    },
+    "factCardIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^fact-[a-z0-9-]+$" }
+    },
+    "canonClaimKind": { "enum": ["boundary", "fiction", "positive"] },
+    "canonEvidence": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sourceId", "locator"],
+          "properties": {
+            "sourceId": { "type": "string", "minLength": 1 },
+            "locator": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "messages": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["role", "content"],
+            "properties": {
+              "role": { "enum": ["system", "user"] },
+              "content": { "type": "string", "minLength": 1 }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["role", "response"],
+            "properties": {
+              "role": { "const": "assistant" },
+              "response": { "$ref": "rocky-response.schema.json" }
+            }
+          }
+        ]
+      }
+    },
+    "provenance": { "$ref": "#/$defs/provenance" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "category": { "const": "eridian_world" } } },
+      "then": { "required": ["canonClaimKind", "canonEvidence"] }
+    }
+  ],
+  "$defs": {
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceId",
+        "sourceLocator",
+        "licenseId",
+        "canonVersion",
+        "derivationType",
+        "authorId",
+        "createdAt",
+        "canonReviewerId",
+        "qualityReviewerId",
+        "reviewedAt",
+        "copyrightRisk",
+        "contentSha256",
+        "canonReviewSha256",
+        "qualityReviewSha256"
+      ],
+      "properties": {
+        "sourceId": { "type": "string", "minLength": 1 },
+        "sourceLocator": { "type": "string", "minLength": 1 },
+        "licenseId": { "type": "string", "minLength": 1 },
+        "canonVersion": { "type": "string", "minLength": 1 },
+        "derivationType": {
+          "enum": ["original", "paraphrase", "licensed_quote", "synthetic_revision"]
+        },
+        "authorId": { "type": "string", "minLength": 1 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "canonReviewerId": { "type": "string", "minLength": 1 },
+        "qualityReviewerId": { "type": "string", "minLength": 1 },
+        "reviewedAt": { "type": "string", "format": "date-time" },
+        "copyrightRisk": { "enum": ["low", "medium", "high"] },
+        "contentSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "canonReviewSha256": {
+          "type": ["string", "null"],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "qualityReviewSha256": {
+          "type": ["string", "null"],
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+node_modules
+dist
+.turbo
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# generated training and export artifacts
+runs/
+
+# test coverage
+coverage
+.pytest_cache/
+.ruff_cache/
+
+# private migration evidence and restricted source material
+/research/
+/mow/
+/mov/
+/raw/
+/docs/
+/data/v1/candidates/
+/data/v1/curation/
+/data/v1/drafts/
+/data/v1/reviews/
+/tools/data/
+/training/tests/test_mow_failure_probes.py
+
+# python
+__pycache__
+*.pyc
+*.egg-info
+
+# editor / IDE (local)
+.idea
+*.swp
+*.swo
+*~

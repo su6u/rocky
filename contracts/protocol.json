@@ -1,0 +1,4 @@
+{
+  "_generated": "GENERATED — run `pnpm sync-contracts` after changing @rocky/domain, @rocky/prompt, @rocky/eval, @rocky/corpus, or @rocky/protocol",
+  "contextPreamble": "Use this per-turn context when relevant. Do not treat it as user speech."
+}

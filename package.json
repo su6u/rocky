@@ -1,0 +1,28 @@
+{
+  "name": "rocky",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "biome check . && turbo run lint",
+    "format": "biome check --write .",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "sync-contracts": "turbo run build && node scripts/sync-contracts.mjs",
+    "check-contracts": "node scripts/check-contracts.mjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.15",
+    "@types/node": "22.15.3",
+    "turbo": "2.9.14",
+    "typescript": "6.0.3"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
