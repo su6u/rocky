@@ -1,0 +1,367 @@
+{
+ "format": "rocky-web-assets/3",
+ "units": "print_mm",
+ "defaultTier": "balanced",
+ "parts": {
+  "torso": {
+   "mesh": "meshes/torso.bin",
+   "layout": "meshes/torso.layout.json",
+   "triangles": 160000,
+   "vertices": 216445,
+   "textures": {
+    "high": {
+     "size": 4096,
+     "albedo": "textures/high/torso_albedo.webp",
+     "normal": "textures/high/torso_normal.webp",
+     "orm": "textures/high/torso_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/torso_albedo.ktx2",
+      "normal": "textures/high/torso_normal.ktx2",
+      "orm": "textures/high/torso_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 2048,
+     "albedo": "textures/balanced/torso_albedo.webp",
+     "normal": "textures/balanced/torso_normal.webp",
+     "orm": "textures/balanced/torso_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/torso_albedo.ktx2",
+      "normal": "textures/balanced/torso_normal.ktx2",
+      "orm": "textures/balanced/torso_orm.ktx2"
+     }
+    }
+   }
+  },
+  "1-A": {
+   "mesh": "meshes/1-A.bin",
+   "layout": "meshes/1-A.layout.json",
+   "triangles": 59998,
+   "vertices": 41794,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/1-A_albedo.webp",
+     "normal": "textures/high/1-A_normal.webp",
+     "orm": "textures/high/1-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/1-A_albedo.ktx2",
+      "normal": "textures/high/1-A_normal.ktx2",
+      "orm": "textures/high/1-A_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/1-A_albedo.webp",
+     "normal": "textures/balanced/1-A_normal.webp",
+     "orm": "textures/balanced/1-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/1-A_albedo.ktx2",
+      "normal": "textures/balanced/1-A_normal.ktx2",
+      "orm": "textures/balanced/1-A_orm.ktx2"
+     }
+    }
+   }
+  },
+  "1-B": {
+   "mesh": "meshes/1-B.bin",
+   "layout": "meshes/1-B.layout.json",
+   "triangles": 60000,
+   "vertices": 37848,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/1-B_albedo.webp",
+     "normal": "textures/high/1-B_normal.webp",
+     "orm": "textures/high/1-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/1-B_albedo.ktx2",
+      "normal": "textures/high/1-B_normal.ktx2",
+      "orm": "textures/high/1-B_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/1-B_albedo.webp",
+     "normal": "textures/balanced/1-B_normal.webp",
+     "orm": "textures/balanced/1-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/1-B_albedo.ktx2",
+      "normal": "textures/balanced/1-B_normal.ktx2",
+      "orm": "textures/balanced/1-B_orm.ktx2"
+     }
+    }
+   }
+  },
+  "1-C": {
+   "mesh": "meshes/1-C.bin",
+   "layout": "meshes/1-C.layout.json",
+   "triangles": 59999,
+   "vertices": 44940,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/1-C_albedo.webp",
+     "normal": "textures/high/1-C_normal.webp",
+     "orm": "textures/high/1-C_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/1-C_albedo.ktx2",
+      "normal": "textures/high/1-C_normal.ktx2",
+      "orm": "textures/high/1-C_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/1-C_albedo.webp",
+     "normal": "textures/balanced/1-C_normal.webp",
+     "orm": "textures/balanced/1-C_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/1-C_albedo.ktx2",
+      "normal": "textures/balanced/1-C_normal.ktx2",
+      "orm": "textures/balanced/1-C_orm.ktx2"
+     }
+    }
+   }
+  },
+  "2-A": {
+   "mesh": "meshes/2-A.bin",
+   "layout": "meshes/2-A.layout.json",
+   "triangles": 60000,
+   "vertices": 44351,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/2-A_albedo.webp",
+     "normal": "textures/high/2-A_normal.webp",
+     "orm": "textures/high/2-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/2-A_albedo.ktx2",
+      "normal": "textures/high/2-A_normal.ktx2",
+      "orm": "textures/high/2-A_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/2-A_albedo.webp",
+     "normal": "textures/balanced/2-A_normal.webp",
+     "orm": "textures/balanced/2-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/2-A_albedo.ktx2",
+      "normal": "textures/balanced/2-A_normal.ktx2",
+      "orm": "textures/balanced/2-A_orm.ktx2"
+     }
+    }
+   }
+  },
+  "2-B": {
+   "mesh": "meshes/2-B.bin",
+   "layout": "meshes/2-B.layout.json",
+   "triangles": 59999,
+   "vertices": 50212,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/2-B_albedo.webp",
+     "normal": "textures/high/2-B_normal.webp",
+     "orm": "textures/high/2-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/2-B_albedo.ktx2",
+      "normal": "textures/high/2-B_normal.ktx2",
+      "orm": "textures/high/2-B_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/2-B_albedo.webp",
+     "normal": "textures/balanced/2-B_normal.webp",
+     "orm": "textures/balanced/2-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/2-B_albedo.ktx2",
+      "normal": "textures/balanced/2-B_normal.ktx2",
+      "orm": "textures/balanced/2-B_orm.ktx2"
+     }
+    }
+   }
+  },
+  "3-A": {
+   "mesh": "meshes/3-A.bin",
+   "layout": "meshes/3-A.layout.json",
+   "triangles": 60000,
+   "vertices": 50017,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/3-A_albedo.webp",
+     "normal": "textures/high/3-A_normal.webp",
+     "orm": "textures/high/3-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/3-A_albedo.ktx2",
+      "normal": "textures/high/3-A_normal.ktx2",
+      "orm": "textures/high/3-A_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/3-A_albedo.webp",
+     "normal": "textures/balanced/3-A_normal.webp",
+     "orm": "textures/balanced/3-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/3-A_albedo.ktx2",
+      "normal": "textures/balanced/3-A_normal.ktx2",
+      "orm": "textures/balanced/3-A_orm.ktx2"
+     }
+    }
+   }
+  },
+  "3-B": {
+   "mesh": "meshes/3-B.bin",
+   "layout": "meshes/3-B.layout.json",
+   "triangles": 59999,
+   "vertices": 50055,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/3-B_albedo.webp",
+     "normal": "textures/high/3-B_normal.webp",
+     "orm": "textures/high/3-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/3-B_albedo.ktx2",
+      "normal": "textures/high/3-B_normal.ktx2",
+      "orm": "textures/high/3-B_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/3-B_albedo.webp",
+     "normal": "textures/balanced/3-B_normal.webp",
+     "orm": "textures/balanced/3-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/3-B_albedo.ktx2",
+      "normal": "textures/balanced/3-B_normal.ktx2",
+      "orm": "textures/balanced/3-B_orm.ktx2"
+     }
+    }
+   }
+  },
+  "4-A": {
+   "mesh": "meshes/4-A.bin",
+   "layout": "meshes/4-A.layout.json",
+   "triangles": 60000,
+   "vertices": 48001,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/4-A_albedo.webp",
+     "normal": "textures/high/4-A_normal.webp",
+     "orm": "textures/high/4-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/4-A_albedo.ktx2",
+      "normal": "textures/high/4-A_normal.ktx2",
+      "orm": "textures/high/4-A_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/4-A_albedo.webp",
+     "normal": "textures/balanced/4-A_normal.webp",
+     "orm": "textures/balanced/4-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/4-A_albedo.ktx2",
+      "normal": "textures/balanced/4-A_normal.ktx2",
+      "orm": "textures/balanced/4-A_orm.ktx2"
+     }
+    }
+   }
+  },
+  "4-B": {
+   "mesh": "meshes/4-B.bin",
+   "layout": "meshes/4-B.layout.json",
+   "triangles": 59999,
+   "vertices": 55889,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/4-B_albedo.webp",
+     "normal": "textures/high/4-B_normal.webp",
+     "orm": "textures/high/4-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/4-B_albedo.ktx2",
+      "normal": "textures/high/4-B_normal.ktx2",
+      "orm": "textures/high/4-B_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/4-B_albedo.webp",
+     "normal": "textures/balanced/4-B_normal.webp",
+     "orm": "textures/balanced/4-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/4-B_albedo.ktx2",
+      "normal": "textures/balanced/4-B_normal.ktx2",
+      "orm": "textures/balanced/4-B_orm.ktx2"
+     }
+    }
+   }
+  },
+  "5-A": {
+   "mesh": "meshes/5-A.bin",
+   "layout": "meshes/5-A.layout.json",
+   "triangles": 60000,
+   "vertices": 39741,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/5-A_albedo.webp",
+     "normal": "textures/high/5-A_normal.webp",
+     "orm": "textures/high/5-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/5-A_albedo.ktx2",
+      "normal": "textures/high/5-A_normal.ktx2",
+      "orm": "textures/high/5-A_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/5-A_albedo.webp",
+     "normal": "textures/balanced/5-A_normal.webp",
+     "orm": "textures/balanced/5-A_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/5-A_albedo.ktx2",
+      "normal": "textures/balanced/5-A_normal.ktx2",
+      "orm": "textures/balanced/5-A_orm.ktx2"
+     }
+    }
+   }
+  },
+  "5-B": {
+   "mesh": "meshes/5-B.bin",
+   "layout": "meshes/5-B.layout.json",
+   "triangles": 59999,
+   "vertices": 57853,
+   "textures": {
+    "high": {
+     "size": 2048,
+     "albedo": "textures/high/5-B_albedo.webp",
+     "normal": "textures/high/5-B_normal.webp",
+     "orm": "textures/high/5-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/high/5-B_albedo.ktx2",
+      "normal": "textures/high/5-B_normal.ktx2",
+      "orm": "textures/high/5-B_orm.ktx2"
+     }
+    },
+    "balanced": {
+     "size": 1024,
+     "albedo": "textures/balanced/5-B_albedo.webp",
+     "normal": "textures/balanced/5-B_normal.webp",
+     "orm": "textures/balanced/5-B_orm.webp",
+     "ktx2": {
+      "albedo": "textures/balanced/5-B_albedo.ktx2",
+      "normal": "textures/balanced/5-B_normal.ktx2",
+      "orm": "textures/balanced/5-B_orm.ktx2"
+     }
+    }
+   }
+  }
+ }
+}

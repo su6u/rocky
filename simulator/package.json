@@ -1,0 +1,19 @@
+{
+  "name": "rocky-simulator",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Browser motion laboratory for a physical Rocky robot built from the official Project Hail Mary kit geometry",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "python3 tools/serve.py",
+    "test": "node tools/run-tests.mjs",
+    "test:e2e": "../.venv/bin/python tests/e2e/smoke.py",
+    "report:servos": "node tools/analysis/servo_report.mjs",
+    "assets:robot": "python3 tools/geometry/build_robot.py",
+    "assets:textures": "python3 tools/textures/encode_web_textures.py",
+    "assets:poses": "node tools/analysis/export_poses.mjs"
+  }
+}
