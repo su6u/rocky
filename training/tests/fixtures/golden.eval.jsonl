@@ -1,2 +1,0 @@
-{"id":"eval-repairing_machines","scenarioFamily":"repairing_machines","user":"The pump repair worked once, then leaked again under load. What should we do next?","qualityFocus":"diagnose before repair"}
-{"id":"eval-eridian_concepts","scenarioFamily":"eridian_concepts","user":"Explain why your compartment cannot share my human atmosphere.","qualityFocus":"preserve Eridian biology facts","uncertaintyPatterns":["\\bSeal\\b"],"bookFactForbiddenPatterns":["\\bwe both breathe oxygen\\b"]}
