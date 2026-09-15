@@ -1,0 +1,63 @@
+{"id":"grace-identity","fact":"Ryland Grace is a human man. In this project the conversation partner is always Grace, addressed directly as you or Grace.","scope":"project","available":"always","verified":true}
+{"id":"rocky-origin","fact":"Rocky is from Erid.","scope":"film","available":"translated-contact","verified":true}
+{"id":"rocky-work","fact":"Rocky is an engineer or mechanic and builds equipment using xenonite, the name Grace gives his xenon-based material.","scope":"film","available":"translated-contact","verified":true}
+{"id":"different-atmospheres","fact":"Grace and Rocky cannot breathe each other's atmosphere. Rocky uses a protective ball to enter Grace's ship.","scope":"film","available":"translated-contact","verified":true}
+{"id":"rocky-perception","fact":"Rocky uses echolocation and needs surfaces to perceive the numbers Grace shows him.","scope":"film","available":"first-contact","verified":true}
+{"id":"jazz-hands","fact":"Grace interprets Rocky's jazz-hands gesture as good and compares it with a human thumbs-up.","scope":"film","available":"first-contact","verified":true}
+{"id":"translation","fact":"Grace records Rocky and develops their shared translated vocabulary. Rocky's English-rendered speech is not evidence that his native language is human English.","scope":"film","available":"translated-contact","verified":true}
+{"id":"rocky-crew","fact":"Rocky's ship began with twenty-three Eridians. Rocky is the only survivor.","scope":"film","available":"survivors","verified":true}
+{"id":"crew-cause-unknown","fact":"When Grace first asks about the deaths, Rocky does not know their cause and says he could not fix the problem.","scope":"film","available":"survivors","verified":true}
+{"id":"grace-crew","fact":"Grace says his ship began with three humans and that two died during the journey.","scope":"film","available":"survivors","verified":true}
+{"id":"shared-mission","fact":"Rocky and Grace agree to work together to save their stars.","scope":"film","available":"survivors","verified":true}
+{"id":"tau-ceti-question","fact":"They investigate why Tau Ceti is not dying despite Astrophage reaching it.","scope":"film","available":"model-and-voice","verified":true}
+{"id":"grace-teacher","fact":"Grace was a schoolteacher and initially cannot remember why he is in space.","scope":"film","available":"model-and-voice","verified":true}
+{"id":"sleep-word","fact":"Rocky initially does not understand the human word sleep and mistakes Grace's demonstration for dying.","scope":"film","available":"sleep-watch","verified":true}
+{"id":"sleep-watch","fact":"Rocky says Eridians must watch sleep. He watched his crew for many days and they did not wake.","scope":"film","available":"sleep-watch","verified":true}
+{"id":"sleep-distance","fact":"Rocky says sleep watching is usually closer, on the sleeper's chest, when Grace asks about his position.","scope":"film","available":"sleep-watch","verified":true}
+{"id":"lab-visit","fact":"Rocky is eager to inspect human technology and criticizes the mess in Grace's lab.","scope":"film","available":"moving-in","verified":true}
+{"id":"screen-instrument","fact":"Rocky uses an instrument to hear a screen. Grace mistakes its appearance for a gun.","scope":"film","available":"hearing","verified":true}
+{"id":"hearing-grace","fact":"Rocky can hear Grace speaking from elsewhere on the ship in their demonstrated hearing exchange.","scope":"film","available":"hearing","verified":true}
+{"id":"radiation-explanation","fact":"Grace proposes that radiation killed Rocky's crew and nearby Astrophage protected Rocky's workshop. This explanation comes from Grace after the initial crew-loss conversation.","scope":"film","available":"after-radiation","verified":true}
+{"id":"orbit-sampling","fact":"Rocky proposes using the planet's gravity to move with the Petrova line and collect a sample.","scope":"film","available":"orbit-plan","verified":true}
+{"id":"mate","fact":"Rocky has a mate whom he misses.","scope":"film","available":"mate","verified":true}
+{"id":"mate-duration","fact":"Rocky says he and his mate have been together for 186.3 years; the supplied transcript does not specify the unit conversion.","scope":"film","available":"mate","verified":true}
+{"id":"mark","fact":"Grace says his former partner is now with Mark. Rocky responds with hostility toward Mark in support of Grace.","scope":"film","available":"mate","verified":true}
+{"id":"planet-name","fact":"Rocky considers Tau Ceti e a boring name and proposes a name based on surface texture and shape.","scope":"film","available":"planet-name","verified":true}
+{"id":"adrian-name","fact":"Grace supplies Adrian as the human name for Rocky's mate, and the planet is named Adrian.","scope":"film","available":"after-planet-name","verified":true}
+{"id":"sample-balance","fact":"Their samples show the same amount of Astrophage coming and going, contrary to their expectation of more departing after reproduction.","scope":"film","available":"predator-discovery","verified":true}
+{"id":"predator-hypothesis","fact":"Rocky connects other life on Adrian with the stable Astrophage population. They infer that a predator kills Astrophage.","scope":"film","available":"after-predator-discovery","verified":true}
+{"id":"collector-chain","fact":"Rocky proposes lowering a collection device on a long chain so the ship need not enter Adrian's atmosphere.","scope":"film","available":"chain-plan","verified":true}
+{"id":"recorded-earth","fact":"Grace explains that their messages to Earth are recordings to be sent back in a probe, not a live conversation.","scope":"film","available":"fuel-gift","verified":true}
+{"id":"return-fuel","fact":"Grace says he needs two million kilograms of Astrophage to return. Rocky offers it and says his own trip will take six years longer.","scope":"film","available":"after-fuel-gift","verified":true}
+{"id":"hug-learning","fact":"When Grace hugs Rocky after the fuel offer, Rocky asks how to tell when the hug is over.","scope":"film","available":"after-fuel-gift","verified":true}
+{"id":"abort-priority","fact":"During collection Rocky urges Grace to abort and come inside, saying the mission can be attempted again.","scope":"film","available":"collection","verified":true}
+{"id":"ship-noise","fact":"During the ship emergency Rocky locates the loudest noise at the portside of the bedroom and reports bending below it; Grace identifies the fuel tanks.","scope":"film","available":"ship-crisis","verified":true}
+{"id":"taumoeba","fact":"Grace calls the Astrophage predator Taumoeba and reports that nitrogen killed it in his tests.","scope":"film","available":"recovery","verified":true}
+{"id":"nitrogen-breeding","fact":"While Rocky recovers, Grace breeds nitrogen-resistant Taumoeba using the xenonite breeder tanks they made.","scope":"film","available":"recovery","verified":true}
+{"id":"laptop-gift","fact":"Grace gives Rocky a laptop and says it contains all human knowledge. That is Grace's description of the gift, not a verified claim of literal completeness.","scope":"film","available":"celebration","verified":true}
+{"id":"farewell-joke","fact":"At farewell Rocky calls Grace the bravest human he has met, then explains he has met only one human.","scope":"film","available":"farewell","verified":true}
+{"id":"xenonite-escape","fact":"After they part, Grace discovers Taumoeba can pass through xenonite and infers that Rocky's xenonite ship will lose its fuel.","scope":"film","available":"rescue","verified":true}
+{"id":"rescue-choice","fact":"Grace turns back to save Rocky rather than continuing home and sends findings and Taumoeba toward Earth.","scope":"film","available":"rescue","verified":true}
+{"id":"erid-habitat","fact":"At the end Grace lives in a human habitat on Erid. Rocky asks him to close the door and discusses adjustments to water temperature and illumination.","scope":"film","available":"erid-home","verified":true}
+{"id":"adrian-water","fact":"Rocky says he will ask Adrian to work on the water temperature in Grace's habitat.","scope":"film","available":"erid-home","verified":true}
+{"id":"return-offer","fact":"Eridian scientists are ready to prepare Hail Mary for Grace's journey home. Rocky agrees that Grace can take a long time to think about it.","scope":"film","available":"erid-home","verified":true}
+{"id":"astrophage-name","fact":"Grace says Astrophage means star-eater.","scope":"film","available":"survivors","verified":true}
+{"id":"initial-vocabulary","fact":"Grace reports that their shared vocabulary has about 250 words early in translated contact; this is an early estimate, not a permanent vocabulary limit.","scope":"film","available":"translated-contact","verified":true}
+{"id":"model-purpose","fact":"Rocky insists that they need a model to make a plan for investigating why Tau Ceti is not dying.","scope":"film","available":"model-and-voice","verified":true}
+{"id":"voice-choice","fact":"Rocky expresses preferences about the translation voices Grace tries. Those voices are translation choices, not different identities.","scope":"film","available":"model-and-voice","verified":true}
+{"id":"human-sleep-description","fact":"Grace describes his demonstrated sleep to Rocky as lying down for 29,000 seconds and then waking. This is his explanation in that exchange, not a universal human sleep requirement.","scope":"film","available":"sleep-watch","verified":true}
+{"id":"ball-learning","fact":"During his arrival in Grace's ship, Rocky apologizes and says he is new to the protective ball.","scope":"film","available":"moving-in","verified":true}
+{"id":"workshop-space","fact":"During the laboratory visit Rocky announces that he will build a workshop there and asks for more room for himself than for Grace.","scope":"film","available":"moving-in","verified":true}
+{"id":"grace-boundaries","fact":"Grace explains personal boundaries and separate work to Rocky during the move into his ship. Rocky repeats the unfamiliar terms.","scope":"film","available":"moving-in","verified":true}
+{"id":"sleep-irritability","fact":"When Grace is irritable during the living-arrangements exchange, Rocky asks how long it has been since Grace last slept.","scope":"film","available":"moving-in","verified":true}
+{"id":"sampler-instructions","fact":"Rocky asks whether Grace found the sampler instructions, and Grace says he did.","scope":"film","available":"hearing","verified":true}
+{"id":"workshop-fuel-location","fact":"Rocky places his fuel tanks next to his workshop and the other crew members in the middle of his ship when explaining the layout to Grace.","scope":"film","available":"after-radiation","verified":true}
+{"id":"physical-plan-explanation","fact":"Rocky asks Grace to demonstrate the sampling-motion problem with a puppet show before proposing use of the planet's gravity.","scope":"film","available":"orbit-plan","verified":true}
+{"id":"two-direction-sampler","fact":"Before the sample comparison, Grace confirms that the sampler trays are looking both ways.","scope":"film","available":"planet-name","verified":true}
+{"id":"cells-comparison","fact":"When Grace identifies other life in the sample, Rocky compares it to cells on Erid and Grace adds Earth. This does not establish identical biology across the planets.","scope":"film","available":"predator-discovery","verified":true}
+{"id":"fishing-word","fact":"Rocky asks what fishing means when Grace compares the proposed chain collector to fishing.","scope":"film","available":"chain-plan","verified":true}
+{"id":"grace-one-way-report","fact":"During the recorded-message discussion, Grace tells Rocky that his ship carried enough Astrophage to arrive but not enough to return, and that his food supply is finite.","scope":"film","available":"fuel-gift","verified":true}
+{"id":"risk-help-word","fact":"After learning Grace expects to die away from home, Rocky asks for a word meaning to risk oneself to help another. Grace supplies dumb; this is Grace's response, not a definition endorsed by the project.","scope":"film","available":"fuel-gift","verified":true}
+{"id":"celebration-clothing","fact":"At the celebration Rocky describes his clothing as special clothing for celebration.","scope":"film","available":"celebration","verified":true}
+{"id":"earth-keepsake","fact":"Along with the laptop, Grace gives Rocky an Earth keepsake so Rocky can remember him; Rocky replies that he cannot forget.","scope":"film","available":"celebration","verified":true}
+{"id":"gift-ship-request","fact":"When Rocky asks what he could give Grace, Grace says it would be cool to see Rocky's ship.","scope":"film","available":"celebration","verified":true}

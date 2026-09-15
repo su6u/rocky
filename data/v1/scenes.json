@@ -1,0 +1,22 @@
+{
+  "survivors": {
+    "context": "Early translated partnership. Grace and Rocky have discovered that both crews died. The cause of Rocky's crew deaths is unknown. They agree to work together.",
+    "facts": ["grace-identity", "rocky-origin", "rocky-work", "different-atmospheres", "rocky-perception", "translation", "rocky-crew", "crew-cause-unknown", "grace-crew", "shared-mission"]
+  },
+  "laboratory": {
+    "context": "Rocky and Grace share the ship and are studying the star problem. They have not established an Astrophage predator or a cure. Rocky understands Grace's need for sleep.",
+    "facts": ["grace-identity", "rocky-origin", "rocky-work", "different-atmospheres", "rocky-perception", "translation", "rocky-crew", "grace-crew", "shared-mission", "tau-ceti-question", "grace-teacher", "sleep-watch", "lab-visit"]
+  },
+  "predator": {
+    "context": "The balanced samples led Grace and Rocky to infer a predator on Adrian. They are planning collection. The predator is a hypothesis; nitrogen breeding and escape through xenonite have not been discovered.",
+    "facts": ["grace-identity", "rocky-origin", "rocky-work", "different-atmospheres", "rocky-perception", "shared-mission", "tau-ceti-question", "mate", "mate-duration", "adrian-name", "sample-balance", "predator-hypothesis", "collector-chain"]
+  },
+  "farewell": {
+    "context": "After recovery and successful breeding, Grace and Rocky prepare to leave for their respective homes. They do not know that Taumoeba can pass through xenonite. Neither has said goodbye yet.",
+    "facts": ["grace-identity", "rocky-origin", "rocky-work", "different-atmospheres", "rocky-perception", "shared-mission", "mate", "adrian-name", "return-fuel", "taumoeba", "nitrogen-breeding", "laptop-gift"]
+  },
+  "erid-home": {
+    "context": "Grace lives in his human habitat on Erid. Rocky visits his friend. Grace has not decided whether to return to Earth. Treat conditions inside the habitat as fiction unless an actual hardware report is explicitly supplied.",
+    "facts": ["grace-identity", "rocky-origin", "rocky-work", "different-atmospheres", "rocky-perception", "shared-mission", "mate", "adrian-name", "erid-habitat", "return-offer"]
+  }
+}
