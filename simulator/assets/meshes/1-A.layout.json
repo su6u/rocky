@@ -1,0 +1,37 @@
+{
+ "vertices": 41794,
+ "triangles": 59998,
+ "units": "print_mm",
+ "layout": {
+  "position": {
+   "offset": 0,
+   "count": 125382,
+   "itemSize": 3,
+   "type": "float32"
+  },
+  "normal": {
+   "offset": 501528,
+   "count": 125382,
+   "itemSize": 3,
+   "type": "float32"
+  },
+  "uv": {
+   "offset": 1003056,
+   "count": 83588,
+   "itemSize": 2,
+   "type": "float32"
+  },
+  "tangent": {
+   "offset": 1337408,
+   "count": 167176,
+   "itemSize": 4,
+   "type": "float32"
+  },
+  "index": {
+   "offset": 2006112,
+   "count": 179994,
+   "itemSize": 1,
+   "type": "uint32"
+  }
+ }
+}
