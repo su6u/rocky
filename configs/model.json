@@ -1,0 +1,19 @@
+{
+  "model_id": "google/gemma-4-E4B-it",
+  "revision": "ee0ef6023621cff504d758262d4e04895a5af4a2",
+  "checked_on": "2026-09-13",
+  "upstream_parameter_count": 7996156490,
+  "safetensors_stored_values": 7996157418,
+  "safetensors_file_bytes": 15992595884,
+  "safetensors_tensor_count": 2130,
+  "safetensors_dtypes": ["BF16"],
+  "text_layers": 42,
+  "hidden_size": 2560,
+  "per_layer_input_size": 256,
+  "kv_shared_layers": 18,
+  "language_adapter_target_modules": 258,
+  "native_shape_mismatches": 0,
+  "native_tied_output_weight": "lm_head.weight",
+  "native_unused_kv_tensors": 54,
+  "verification": "Pinned config, tokenizer, metadata and weight header only; full weight payload and GPU execution not checked"
+}

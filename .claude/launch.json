@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rocky-sim",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "simulator/tools/serve.py",
+        "--port",
+        "8792"
+      ],
+      "port": 8792
+    }
+  ]
+}

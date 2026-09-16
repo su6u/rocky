@@ -1,0 +1,11 @@
+# Official kit inputs (licence-restricted, 244 MB): STL parts, archive, print instructions
+/kit/
+# Blender bake outputs (full-resolution PNG maps, bake reports, logs); rebuilt by tools/blender/bake_parts.py
+/bakes/
+# Superseded prototypes kept locally for reference only
+/archive/
+# Optional high texture tier (≈270 MB); rebuilt by tools/textures/encode_web_textures.py from bakes/
+/assets/textures/high/
+# Local test and analysis output
+/test-results/
+/reports/
